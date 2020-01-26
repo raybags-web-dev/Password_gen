@@ -1,0 +1,126 @@
+body {
+   background-color: #333;
+   margin: 0;
+   color: white;
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+   background-color: #006699;
+   padding: 0rem;
+   border-radius: 1rem;
+   border: 2px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.form {
+   display: grid;
+   grid-template-columns: auto auto;
+   row-gap: 2rem;
+   column-gap: 4rem;
+   justify-content: center;
+   align-items: center;
+   margin: 5em;
+}
+
+.title {
+   padding: 0;
+   font-style: italic;
+   margin: 0;
+   text-align: center;
+   margin: 1em;
+}
+
+label {
+   font-weight: bold;
+   margin: 1em;
+}
+
+.charactor-amount-container {
+   display: flex;
+   align-items: center;
+   margin: 1em;
+}
+
+.number-input {
+   width: 10rem;
+   margin: .5em;
+   grid-row-start: auto;
+}
+
+.password-display {
+   background-color: white;
+   color: black;
+   font-size: 35px;
+   padding: 3rem;
+   border: 1px solid #333;
+   height: 2rem;
+   width: 400px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   word-break: break-all;
+   border-radius: .5rem;
+}
+
+.password-display:hover {
+   background-color: rgb(207, 248, 238);
+   cursor: auto;
+}
+
+.btn {
+   grid-column: span 2;
+   background-color: transparent;
+   border: 2px solid white;
+   font-size: 20px;
+   color: white;
+   padding: .5rem 1rem;
+   align-items: center;
+   height: 3rem;
+   text-align: center;
+   text-decoration: black;
+   font-weight: bold;
+   cursor: pointer;
+   border-radius: 1rem;
+}
+
+.btn:hover {
+   background-color: rgba(247, 221, 221, 0.2);
+   font-weight: bold;
+   color: rgb(8, 8, 8);
+}
+
+.includUppcaseText {
+   text-decoration-color: white;
+   font-style: italic;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.includeNumberText {
+   text-decoration-color: white;
+   font-style: italic;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.symbolText {
+   text-decoration-color: white;
+   font-style: italic;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.number-Of-Characters-Text {
+   text-decoration-color: white;
+   font-style: italic;
+   font-weight: bold;
+   font-size: 20px;
+}
